@@ -102,7 +102,7 @@ jobs:
           path: dist
       - name: Desplegar en GitHub Pages
         id: despliegue
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   verificacion:
     name: 5 · verificación
